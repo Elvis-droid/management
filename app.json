@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "Azonto Management App",
+    "slug": "azonto-management-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0F1B3C"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0F1B3C"
+      },
+      "package": "com.azonto.management",
+      "versionCode": 1
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.azonto.management"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "owner": "fuses-team",
+    "extra": {
+      "eas": {
+        "projectId": "69142e55-32b1-46a2-8a0d-cae7daeef310"
+      }
+    }
+  }
+}
